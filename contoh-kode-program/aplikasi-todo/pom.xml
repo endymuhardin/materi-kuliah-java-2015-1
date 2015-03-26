@@ -9,4 +9,12 @@
 
   <name>Aplikasi Daftar Pekerjaan</name>
   <url>https://github.com/endymuhardin/materi-kuliah-java-2015-1</url>
+
+  <dependencies>
+    <dependency>
+      <groupId>joda-time</groupId>
+      <artifactId>joda-time</artifactId>
+      <version>2.7</version>
+    </dependency>
+  </dependencies>
 </project>
