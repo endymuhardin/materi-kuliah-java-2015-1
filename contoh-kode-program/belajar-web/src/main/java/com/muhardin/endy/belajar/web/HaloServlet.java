@@ -12,6 +12,8 @@ import javax.servlet.annotation.WebServlet;
 public class HaloServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
                                        throws ServletException, IOException {
+                                       
+        System.out.println("Menjalankan HaloServlet");                               
         PrintWriter output = resp.getWriter();
         
         resp.setContentType("text/html");
